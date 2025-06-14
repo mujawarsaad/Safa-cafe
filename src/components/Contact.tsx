@@ -47,8 +47,8 @@ const Contact = () => {
                     +91 9209934667
 
                   </a><br />
-                  <a href="tel:+919209934667" className="hover:text-green-600 transition-colors">
-                    +91 9209934667
+                  <a href="tel:+917666898165" className="hover:text-green-600 transition-colors">
+                    +91 7666898165
 
                   </a>
                 </p>
@@ -64,11 +64,11 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
                 <p className="text-gray-600">
-                  <a href="mailto:info@safacyberpoint.com" className="hover:text-blue-600 transition-colors">
+                  <a href="mailto:safacybers@gmail.com" className="hover:text-blue-600 transition-colors">
                     safacybers@gmail.com 
 
                   </a><br />
-                  <a href="mailto:support@safacyberpoint.com" className="hover:text-blue-600 transition-colors">
+                  <a href="mailto:safacybers@gmail.com" className="hover:text-blue-600 transition-colors">
                     safacybers@gmail.com 
 
                   </a>
@@ -85,7 +85,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Business Hours</h3>
                 <div className="text-gray-600 space-y-1">
-                  <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+                  <p>Monday - Saturday: 9:00 AM - 10:00 PM</p>
                   <p>Sunday: 10:00 AM - 6:00 PM</p>
                   <p className="text-green-600 font-medium">WhatsApp Support: 24/7</p>
                 </div>
@@ -112,7 +112,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="tel:+919876543210"
+                href="tel:+919209934667"
                 className="w-full bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-xl flex items-center space-x-3 transition-colors"
               >
                 <Phone size={24} />
@@ -123,7 +123,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:info@safacyberpoint.com"
+                href="mailto:safacybers@gmail.com"
                 className="w-full bg-gray-600 hover:bg-gray-700 text-white p-4 rounded-xl flex items-center space-x-3 transition-colors"
               >
                 <Mail size={24} />
