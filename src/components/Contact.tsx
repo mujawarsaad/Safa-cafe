@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Mail, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail, MessageCircle, Facebook, Instagram, Send } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -137,14 +137,29 @@ const Contact = () => {
             <div className="border-t pt-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
-                  <span className="text-sm font-bold">f</span>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61576781380506&mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors"
+                >
+                  <Facebook size={18} />
                 </a>
-                <a href="#" className="w-10 h-10 bg-blue-400 text-white rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors">
-                  <span className="text-sm font-bold">t</span>
+                <a
+                  href="https://t.me/mujawarsaad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-blue-400 text-white rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors"
+                >
+                  <Send size={18} />
                 </a>
-                <a href="#" className="w-10 h-10 bg-red-600 text-white rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors">
-                  <span className="text-sm font-bold">y</span>
+                <a
+                  href="https://www.instagram.com/safacyber/profilecard/?igsh=NXI0dHMzcTM4YXc3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-red-600 text-white rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors"
+                 >
+                  <Instagram size={18} />
                 </a>
               </div>
             </div>
